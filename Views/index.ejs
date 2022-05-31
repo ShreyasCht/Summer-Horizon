@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Shortener</title>
+    <link rel="stylesheet" href="index.js">
+</head>
+<body>
+    <h1>
+        Link Shortener
+    </h1>
+    <form action="/short" method="POST">
+        <label>
+            Enter a link
+        </label>
+        <input type="text" name="full" id="full" placeholder="Enter the link">
+        <label>
+            Link Shortened
+        </label>
+        <input type="text" name="short" id="short" placeholder="custom backlink">
+        <input type="submit" value="shorten">
+    </form>
+</body>
+</html>
